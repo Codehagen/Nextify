@@ -2,14 +2,12 @@
 import { Suspense } from "react";
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { auth } from "@clerk/nextjs";
 import { siteConfig } from "@/components/Navbar/site";
 import { buttonVariants } from "@/components/shadcn/button";
 import { Icons } from "@/components/Icons/icons";
 import { MobileDropdown } from "@/components/Navbar/mobile-nav";
 import { MainNav } from "@/components/Navbar/main-nav";
 import { useSession } from "next-auth/react";
-import { getCurrentUser } from "@/lib/currentUser/session";
 
 export default function MarketingLayout(props: { children: ReactNode }) {
   //TODO Make this SSR
