@@ -39,7 +39,7 @@ Nextify is an open-source project so your able to ship projects fast!
 
 ## Local Development
 
-To develop Nextify locally, you will need to clone this repository and set up all the env vars outlined in the [`.env.example` file](https://github.com/meglerhagen/Nextify/blob/main/.env.example).
+To develop Nextify locally, you will need to clone this repository and set up all the env vars outlined in the [`.env.example` file](https://github.com/meglerhagen/Nextify/blob/master/.env.example).
 
 Once that's done, you can use the following commands to run the app locally:
 
@@ -64,6 +64,14 @@ We're planning to add a proper, well-documented self-hosting guide for Nextify s
 - [Vercel](https://vercel.com/) – Hosting
 - [Stripe](https://stripe.com/) – Payment Processor
 - [Bun](https://bun.sh/) – All-in-one JS Toolkit
+
+## Roadmap
+
+- [x] ~Add NextAuth~
+- [ ] Landingpage
+- [ ] Dashboard
+- [ ] Integrate Stripe
+- [ ] Add OG image for blog using @vercel/og
 
 ## Contributing
 
