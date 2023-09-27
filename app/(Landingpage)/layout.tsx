@@ -28,13 +28,13 @@ export default function MarketingLayout(props: { children: ReactNode }) {
           <Suspense>
             <DashboardLink />
           </Suspense>
-          <Link
+          {/* <Link
             href="/sign-in"
             className={buttonVariants({ variant: "outline" })}
           >
             Sign In
             <Icons.chevronright className="ml-1 h-4 w-4" />
-          </Link>
+          </Link> */}
         </div>
       </nav>
       <main className="flex-initial">{props.children}</main>
